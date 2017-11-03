@@ -1,58 +1,122 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<title>OVI-Grupo-301122_49</title>
 	<meta charset="UTF-8">
 	<meta description="Proyecto OVI, grupo_301122_49"/>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"> 
+    <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">   
 	<script type="text/javascript" src="js/prefixfree.min.js"></script>
-	<title>OVI-Grupo-301122_49</title>
+    <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
 <body>
 
 		<header>
-			<img src="img/encabezado.jpg">
+        <div class="slider"><img src="img/slider.jpg"></div>
 		</header>
+        
+<nav>
+<div class="nav_horizontal">
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a class="MenuBarItemSubmenu" href="lecturas.html">Lecturas</a>
+      <ul>
+        <li><a href="lecturas1.html">Lecturas 1</a></li>
+        <li><a href="lecturas2.html">Lecturas 2</a></li>
+        <li><a href="lecturas3.html">Lecturas 3</a></li>
+        <li><a href="lecturas4.html">Lecturas 4</a></li>
+        <li><a href="lecturas5.html">Lecturas 5</a></li>
+        <li><a href="lecturas6.html">Lecturas 6</a></li>
+        <li><a href="lecturas7.html">Lecturas 7</a></li>
+      </ul>
+  </li>
+    <li><a href="multimedia.html" class="MenuBarItemSubmenu">Multimedia</a>
+      <ul>
+        <li><a href="multimedia1.html">Video 1</a></li>
+        <li><a href="multimedia2.html">Video 2</a></li>
+        <li><a href="multimedia3.html">Video 3</a></li>
+        <li><a href="multimedia4.html">Video 4</a></li>
+        <li><a href="multimedia5.html">Video 5</a></li>
+        <li><a href="multimedia6.html">Video 6</a></li>
+        <li><a href="multimedia7.html">Video 7</a></li>
+      </ul>
+</li>
+    <li><a class="MenuBarItemSubmenu" href="actividades.html">Actividades</a>
+      <ul>
+        <li><a href="actividades1.html">Actividad 1</a>          </li>
+        <li><a href="actividades2.html">Actividad 2</a></li>
+        <li><a href="actividades3.html">Actividad 3</a></li>
+      </ul>
+    </li>
+    <li><a href="autores.html">Autores</a></li>
+  </ul>
+</div>
+</nav>
 
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html">Inicio</a>
-				</li>
-				<li>
-					<a href="lecturas.html">Lecturas</a>
-				</li>
-				<li>
-					<a href="multimedia.html">Multimedia</a>
-				</li>
-				<li>
-					<a href="actividades.html">Actividades</a>
-				</li>
-				<li>
-					<a href="autores.html">Autores</a>
-				</li>
-			</ul>
-		</nav>
 
-	
-		<section id="contenido">
+<section id="contenido">
 			<article class="Intro">
 				<h2>Actividades</h2>
+				<p>En la siguiente sección encontraras videos para profundizar acerta de todo lo relacionado con las bases de datos.
 			</article>	
+            <article class="actividades-intro">
+            <p><a href="actividad1.html">Sopa de letras bases de datos</a></p>
+            <p><a href="actividad2.html">Crucigrama bases de datos</a></p>
+            <p><a href="actividad3.html">Cuestionario de repaso SQL básico</a></p>
+
+            
+            
+            </article>	
+
+
 		</section>
+
 	
 
-		<aside>
-			<p>Twiter y contador</p>
+		<aside><br>Twitter UNAD
+			                                   <a class="twitter-timeline"  href="https://twitter.com/search?q=unad" data-widget-id="926168951863824384">Tweets sobre unad</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+          
+            
+
+          
 		</aside>
 
 		<footer>
-			<p>Universidad Nacional Abierta y a Distancia - UNAD</p>
-			<p>Diseño de sitios web</p>
-			<p>Grupo: 301122_49</p>
-			<p>2017</p>
-		</footer>	
-
+			<p><br><br>Universidad Nacional Abierta y a Distancia - UNAD<br>Diseño de sitios web<br>
+			Grupo: 301122_49<br>
+			2017</p>
+</footer>	
+        
+        
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
 
 </body>
 </html>

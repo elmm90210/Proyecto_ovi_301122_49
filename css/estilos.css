@@ -8,36 +8,31 @@ body{
 }
 
 header{
-	text-align: center;
-}
 
+}
 
 nav{
 	background: #004967;
-	border-top: 7px solid #e26909;
-	border-bottom: 7px solid #f4af00;
-
-}
-nav li{
-	list-style: none;
-	display: inline-block;
-
+	border-top: 5px solid #e26909;
+	border-bottom: 5px solid #f4af00;
 
 }
 
-nav a{
-	color: #e5e5c4;
-	font-size: 18px;
-	font-weight: bold;
-	font-family: arial;
-	text-decoration: none;
-	padding: 20px;
+.nav_horizontal {
+	background-color: #004967;
+	height: 40px;
+	position: relative;
+	padding-left: 30px;
+}
+.slider {
+	height: 180px;
+	width: 1220px;
+	margin-right: auto;
+	margin-left: auto;
+
 }
 
-nav a:hover{
-	background: #f4af00;
-	color: #004967;
-}
+
 
 #contenido{
 	max-width: 70%;
@@ -50,6 +45,23 @@ nav a:hover{
 .Intro{
 	margin: 20px;
 }
+
+.lecturas-intro{
+	margin: 20px;
+	}
+
+.multimedia-intro{
+	margin: 20px;
+}
+
+.actividades-intro{
+	margin: 20px;
+	}
+
+.autores-intro{
+	margin: 20px;
+	}	
+	
 
 .Lecturas{
 	display: inline-block;
@@ -68,16 +80,28 @@ nav a:hover{
 	margin: 20px;
 }
 
+.contenido1{
+	margin: 20px;
+}
+#contenido .contenido1 {
+	margin: 20px;
+}
+
+.bibliografia{
+	margin: 20px;
+}
+
 aside{
 	float: right;
-	width: 250px;
+	width: 300px;
 	height: 500px;
 	background: #004967;
 	margin-top: 10px;
 	margin: 20px;
-	border-top: 7px solid #e26909;
-	border-bottom: 7px solid #eab200;
+	border-top: 5px solid #e26909;
+	border-bottom: 5px solid #eab200;
 	color: #ffffff;
+	text-align:center;
 
 }
 footer{
