@@ -13,8 +13,6 @@ header{
 
 nav{
 	background: #004967;
-	border-top: 5px solid #e26909;
-	border-bottom: 5px solid #f4af00;
 
 }
 
@@ -93,8 +91,8 @@ nav{
 
 aside{
 	float: right;
-	width: 300px;
-	height: 500px;
+	width: 320px;
+	height: 540px;
 	background: #004967;
 	margin-top: 10px;
 	margin: 20px;
