@@ -9,23 +9,30 @@ body{
 
 
 nav{
-	background: #004967;
+	background-color: #004967;
+}
+
+.contenedor{
+	width: 1240px;
+	margin-right: auto;
+	margin-left: auto;
+
 }
 
 .nav_horizontal {
+	width: 700px;
 	background-color: #004967;
 	height: 40px;
-	position: relative;
-	padding-left: 30px;
+	margin-right: auto;
+	margin-left: auto;
 }
+
 .slider {
 	height: 180px;
 	width: 1220px;
 	margin-right: auto;
 	margin-left: auto;
 }
-
-
 
 #contenido{
 	max-width: 70%;
