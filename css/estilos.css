@@ -7,13 +7,9 @@ body{
 	background: #ffffff;
 }
 
-header{
-
-}
 
 nav{
 	background: #004967;
-
 }
 
 .nav_horizontal {
@@ -27,7 +23,6 @@ nav{
 	width: 1220px;
 	margin-right: auto;
 	margin-left: auto;
-
 }
 
 
@@ -37,7 +32,6 @@ nav{
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
-
 }
 
 .Intro{
@@ -58,9 +52,8 @@ nav{
 
 .autores-intro{
 	margin: 20px;
-	}	
+}	
 	
-
 .Lecturas{
 	display: inline-block;
 	margin: 20px;
@@ -100,8 +93,8 @@ aside{
 	border-bottom: 5px solid #eab200;
 	color: #ffffff;
 	text-align:center;
-
 }
+
 footer{
 	max-width: : 100%;
 	height: 140px;
@@ -110,9 +103,9 @@ footer{
 	clear: both;
 	margin-top: 20px;
 }
+
 footer{
 	font-size: 15px;
 	font-family: arial;
 	text-align: center;
-
 }
