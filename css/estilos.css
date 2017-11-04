@@ -7,6 +7,64 @@ body{
 	background: #ffffff;
 }
 
+header{
+	background-image: url(../img/slider.jpg);
+	height: 160px;
+	width: 1220px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#acces{
+	height: 160px;
+	width: 1220px;
+}
+
+#aunad{
+	width: 190px;
+	height: 32px;
+	background: #004967;
+	position: relative;
+	top: 25px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 5px #333;
+	text-align: center;
+	padding-top: 8px;
+	left: 1010px;
+}
+
+#acv{
+	width: 190px;
+	height: 32px;
+	background: #004967;
+	right: 40px;
+	position: relative;
+	top: 50px;
+	border-radius:12px;
+	box-shadow: 0px 0px 5px #333;
+	text-align:center;
+	padding-top:8px;
+	left: 1010px;
+}
+
+.accesos{
+	color: #ffffff;
+	text-decoration: none;
+	left: auto;
+	top: auto;
+}
+
+
+#aunad:hover{
+	background: #3779b0;
+	color: #004967;
+}
+
+#acv:hover{
+	background: #3779b0;
+	color: #004967;
+}
+
 
 nav{
 	background-color: #004967;
@@ -92,7 +150,7 @@ nav{
 aside{
 	float: right;
 	width: 320px;
-	height: 540px;
+	height: 570px;
 	background: #004967;
 	margin-top: 10px;
 	margin: 20px;
@@ -100,6 +158,7 @@ aside{
 	border-bottom: 5px solid #eab200;
 	color: #ffffff;
 	text-align:center;
+	border-radius: 20px;	
 }
 
 footer{
