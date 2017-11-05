@@ -71,7 +71,7 @@ nav{
 }
 
 .contenedor{
-	width: 1240px;
+	width: 1220px;
 	margin-right: auto;
 	margin-left: auto;
 
@@ -162,7 +162,7 @@ aside{
 }
 
 footer{
-	max-width: : 100%;
+	max-width: 100%;
 	height: 140px;
 	background: #004967;
 	color: #ffffff;
